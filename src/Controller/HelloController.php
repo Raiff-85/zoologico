@@ -24,7 +24,7 @@ class HelloController
     {
        return new Response('Alô, mamífera!');
     }
-    
+
     #[Route('/invertebrados')]
     public function invertebrados(): Response
     {
