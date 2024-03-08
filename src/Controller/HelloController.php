@@ -12,14 +12,17 @@ class HelloController
     {
         return new Response('Olá, Mundo!');
     }
+
     #[Route('/dinossauro')]
     public function dinossauro(): Response
     {
         return new Response('Olá, Dino!');
     }
+
     #[Route('/mamiferos')]
 public function mamiferos(): Response
     {
        return new Response('Alô, mamífera!');
     }
+    
 }
