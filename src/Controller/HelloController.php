@@ -61,10 +61,10 @@ class HelloController
         return new Response('Oi, cachorro!');
     }
 
-    #[Route('/roedor')]
-    public function roedor(): Response
+    #[Route('/roedores')]
+    public function roedores(): Response
     {
-        return new Response('Oi, roedor!');
+        return new Response('Alô, roedor');
     }
 
 }
